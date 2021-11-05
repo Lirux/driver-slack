@@ -17,7 +17,7 @@
     "require": {
         "php": ">=7.0",
         "botman/botman": "~2.1",
-        "mpociot/slack-client": "~1.0"
+        "opendialogai/slack-client": "dev-master"
     },
     "require-dev": {
         "botman/studio-addons": "~1.0",
