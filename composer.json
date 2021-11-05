@@ -1,5 +1,5 @@
 {
-    "name": "botman/driver-slack",
+    "name": "opendialogai/driver-slack",
     "license": "MIT",
     "description": "Slack driver for BotMan",
     "keywords": [
@@ -21,7 +21,7 @@
     },
     "require-dev": {
         "botman/studio-addons": "~1.0",
-        "phpunit/phpunit": "~5.0",
+        "phpunit/phpunit": "^9.5",
         "illuminate/console": "~5.0",
         "illuminate/support": "~5.0",
         "mockery/mockery": "dev-master",
@@ -50,5 +50,11 @@
                 "BotMan\\Drivers\\Slack\\Providers\\SlackServiceProvider"
             ]
         }
-    }
+    },
+    "repositories":  [
+        {
+            "type": "vcs",
+            "url": "https://github.com/opendialogai/slack-client.git"
+        }
+    ]
 }
